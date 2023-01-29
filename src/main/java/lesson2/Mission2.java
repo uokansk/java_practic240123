@@ -13,11 +13,9 @@ public class Mission2 {
         int count = 1;
         int i;
         for (i = 1; i < sb.length(); i++) {
-
             if (sb.charAt(i - 1) == sb.charAt(i)) {
                 count++;
             }
-
             else {
                 rez.append(sb.charAt(i - 1));
                 rez.append(count);
